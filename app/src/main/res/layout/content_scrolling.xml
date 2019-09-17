@@ -11,15 +11,14 @@
 
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
+              android:id="@+id/tv_recycler_swip_drag"
               android:layout_marginTop="@dimen/common_margin"
               android:layout_marginStart="@dimen/common_margin"
               android:paddingStart="@dimen/common_padding"
               android:paddingEnd="@dimen/common_padding"
-              android:id="@+id/tv_recycler_swip_drag"
 
 
               android:text="Recycler拖拽滑动"
-              android:background="@drawable/shape_btn_background"
-    />
+              android:background="@drawable/shape_btn_background"/>
 
 </androidx.core.widget.NestedScrollView>

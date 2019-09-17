@@ -1,10 +1,14 @@
 package com.wangzp.androidtree
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.TextView
+import com.wangzp.androidtree.recyclerviews.RecyclerActivity
 import kotlinx.android.synthetic.main.activity_scrolling.*
 
 class ScrollingActivity : AppCompatActivity() {
@@ -20,6 +24,11 @@ class ScrollingActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
+        var dragView = findViewById<TextView>(R.id.tv_recycler_swip_drag)
+        dragView.setOnClickListener(View.OnClickListener {
+            var intent = Intent(this,RecyclerActivity::class.java)
+            startActivity(intent)
+        })
 
     }
 
