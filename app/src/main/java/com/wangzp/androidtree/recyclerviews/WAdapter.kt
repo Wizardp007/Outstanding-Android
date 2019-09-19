@@ -32,7 +32,7 @@ class WAdapter(private val context: Context, private val data: List<ObjectData>)
 
 
 
-    inner class WViewHoler(view: View):RecyclerView.ViewHolder(view){
+     inner class WViewHoler(view: View):RecyclerView.ViewHolder(view){
 
     }
 

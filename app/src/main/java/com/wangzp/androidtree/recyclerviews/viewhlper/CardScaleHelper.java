@@ -1,4 +1,4 @@
-package com.example.demorecyclerview.java;
+package com.wangzp.androidtree.recyclerviews.viewhlper;
 
 import android.content.Context;
 

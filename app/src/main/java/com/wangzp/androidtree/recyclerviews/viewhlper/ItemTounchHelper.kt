@@ -8,6 +8,9 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 
+/**
+ * drag and move item of RecyclerView
+ */
 class ItemTounchHelper(val mData:ArrayList<ObjectData>,val mAdapter:WAdapter) : ItemTouchHelper.Callback() {
 
     //设置属性
